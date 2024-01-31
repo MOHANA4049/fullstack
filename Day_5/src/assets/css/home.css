@@ -1,0 +1,16 @@
+/* Home.css */
+.homemain {
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  
+  .video-bg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
