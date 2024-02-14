@@ -1,0 +1,67 @@
+/* userjob.css */
+
+.job-list {
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-card {
+    width: calc(25% - 20px); /* 4 cards in a row */
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* Add transition for transform */
+}
+
+.job-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-meta {
+    display: flex;
+    align-items: center;
+    color: #777;
+}
+
+.job-meta svg {
+    margin-right: 5px;
+}
+
+.button-container {
+    display: flex;
+    padding:50px;
+    justify-content: center;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.apply-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,99 @@
+
+.haii{
+  min-height: 100vh;
+  background-image:url('C:/Users/mohan/jobapp/demo/src/assets/images/itimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.full{
+  display:flex;
+}
+  #form-container {
+    max-width: 400px;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+  }
+  .input-field {
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea.input-field {
+    height: 50px;
+  }
+  
+  
+  #title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  #submit{
+    margin-top: 20px;
+  }
+  #description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .rowTab {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .labels {
+    flex: 1;
+  }
+  
+  .form-container .rightTab {
+    flex: 2;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .radio-buttons {
+    margin-right: 5px;
+  }
+  
+  .checkbox {
+    margin-bottom: 5px;
+  }
+  
+  #comments {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  #submit {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

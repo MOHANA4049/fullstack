@@ -1,0 +1,109 @@
+.signup-wrapper {
+    max-width: 600px; /* Adjust the maximum width to your preference */
+    margin-left:20px;
+    margin-top:3%;
+    padding:30px; /* Reduce the padding to make the form smaller */
+    /* background-color: #fff; */
+    /* border: 2px solid darkgrey; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .demos {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    display: flex;
+    font-style: normal;
+    align-items: center;
+    margin-left: 15%;
+    
+  }
+  
+  .signup-wrapper h1 {
+    text-align: center;
+    padding: 15px;
+    color: #333;
+  }
+  
+  .signup-main {
+    min-height: 100vh;
+    background-image: url('../images/pexels-lex-photography-1109543.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+  }
+  
+  .signup-input-box {
+    position: relative;
+    margin-bottom: 15px; /* Reduce the margin between input boxes */
+  }
+  
+  .signup-input-box input {
+    width: 100%;
+    padding: 15px; /* Reduce the padding of the input boxes */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 30px; /* Adjust the left padding to accommodate the icon */
+  }
+  
+  .signup-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px; /* Adjust the left position of the icon */
+    font-size: 16px; /* Adjust the font size of the icon */
+    color: #555;
+  }
+  
+  .signup-button {
+    width: 50%; /* Make the button full-width */
+    height: 40px; /* Reduce the height of the button */
+    margin-top: 15px; /* Adjust the top margin of the button */
+    background: #007bff;
+    border: none;
+    outline: none;
+    margin-left:20%;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    animation: colorChange 1s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background: #007bff;
+    }
+    50% {
+      background: #00ff00;
+    }
+    100% {
+      background: #007bff;
+    }
+  }
+  
+  .signup-register-link {
+    text-align: center;
+  }
+  
+  .signup-register-link p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-register-link a {
+    color: blueviolet;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  
+  /* Add more styles as needed for specific signup page elements */
+  

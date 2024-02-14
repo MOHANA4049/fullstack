@@ -1,0 +1,76 @@
+
+
+.containersss {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.actions-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
+
+.actions-btn:hover {
+  background-color: #0056b3;
+}
+
+.select-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: white;
+}
+
+.select-btn:hover {
+  background-color: #218838;
+}
+
+.reject-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: #c82333;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,131 @@
+/* 
+  .c2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    display: flex;
+    font-style: normal;
+    align-items: center;
+    margin-left:10%;
+}
+.con{
+    display:flex;
+}
+.c2 {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    /* padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .c2 h1 {
+    margin-bottom: 20px;
+  } */
+/*   
+  .c2 p {
+    margin-bottom: 20px;
+  }
+  
+  .c2 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .c2 label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .c2 input,
+  .c2 textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .c2 button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .c2 button:hover {
+    background-color: #45a049;
+  } */ 
+  /* contact.css */
+
+.c2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  display: flex;
+  font-style: normal;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.con {
+  display: flex;
+}
+
+.c2 {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.c2 h1 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Increased font size for headings */
+}
+
+.c2 p {
+  margin-bottom: 20px;
+}
+
+.c2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.c2 label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold; /* Added font weight to labels for emphasis */
+}
+
+.c2 input,
+.c2 textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.c2 textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.c2 button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px; /* Increased padding for better button appearance */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.c2 button:hover {
+  background-color: #45a049;
+}
